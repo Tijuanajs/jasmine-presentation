@@ -62,10 +62,17 @@ Cada matcher toma una comparacion booleana que le reporta a Jasmine si la expect
 
 # Algunos Matchers
 
-Todos comienzan con el codigo `expect(foo)`
+Todos comienzan con el codigo `expect(foo).`
 
 * `toEqual(bar);`  compara objetos o primitivos de `foo` y `bar` y es satisfactorio si son equivalentes.
 * `toBe(bat)` pasa si `foo` y `bar` son el mismo objeto.
 * `toBeDefined()` pasa si `foo` no es `undefined`
 
-por mostrar algunos. la lista completa la podemos observar en [ Jasmine Matchers ]( https://github.com/pivotal/jasmine/wiki/Matchers )
+por mostrar algunos. la lista completa la podemos observar en [ Jasmine Matchers ]( https://github.com/pivotal/jasmine/wiki/Matchers ) asi como un ejemplo de construir uno personalizado.
+
+# Agrupar Specs y, Setup y Teardown y Anidar suites
+* Podemos agrupar specs dentro de suites, el nombre de la suite se combinara junto con el del spec. El nombre resultante sera el nombre completo del spec.
+* Se puede ejecutar codigo antes y despues de cada spec dentro de una suite utilizando las funciones `beforeEach` y `AfterEach`
+* Otra caracteristica importante es que podemos anidar funciones `describe` dentro de otras
+
+
