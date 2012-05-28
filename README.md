@@ -38,6 +38,8 @@ La cadena es el nombre de la suite, y la funcion es el codigo que la implementa.
 Las especificaciones o "Specs" se definen con la funcion `it`, muy parecida a describe utiliza una cadena y la funcion del spec ( o prueba ).
 Un spec puede tener una o mas expectativas que prueban el estado del codigo dentro de la prueba.
 
+Una expectativa en Jasmine es una aseveracion de que algo es verdadero o falso. Un spec con todas sus expectativas verdaderas significan que el spec es satisfactorio. Un spec con una o mas expectativas que evaluen a falso, es un spec que fallo.
+
 # Ejemplo ( de la pagina ):
 
 ```
