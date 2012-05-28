@@ -49,3 +49,23 @@ describe("A suite", function() {
   }
 }
 ```
+
+# `describe` é `it`
+
+Jasmine nos dice que `describe` y `it` son solo funciones, pueden contener codigo necesario para implementar la prueba. Las reglas de "scope" de Javascript aplican aqui, asi que si se declara algo dentro de un `describe` este estara disponible a los bloques `it` dentro de la suite.
+
+# Expectations
+Se construyen con la funcion `expect` que toma un valor llamado `actual`. y se encadena con una funcion `matcher` con el valor esperado.
+
+# Matchers
+Cada matcher toma una comparacion booleana que le reporta a Jasmine si la expectativa fue falsa o verdadera. se puede evaluar a `false` si se utiliza `not` antes de llamar al matcher.
+
+# Algunos Matchers
+
+Todos comienzan con el codigo `expect(foo)`
+
+* `toEqual(bar);`  compara objetos o primitivos de `foo` y `bar` y es satisfactorio si son equivalentes.
+* `toBe(bat)` pasa si `foo` y `bar` son el mismo objeto.
+* `toBeDefined()` pasa si `foo` no es `undefined`
+
+por mostrar algunos. la lista completa la podemos observar en [ Jasmine Matchers ]( https://github.com/pivotal/jasmine/wiki/Matchers )
