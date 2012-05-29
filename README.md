@@ -77,10 +77,12 @@ por mostrar algunos. la lista completa la podemos observar en [ Jasmine Matchers
 
 # Espias
 
-Los espias pueden ser: 
+Los espias son los "dobles" de las pruebas nos permiten espiar, falsificar y realizar "mocks". Un espia reemplaza a la funcion que esta espiando.
+
 
 
 # Referencias y material de ejemplo de:
 
 * [http://dannorth.net/introducing-bdd](http://dannorth.net/introducing-bdd)
 * [http://pivotal.github.com/jasmine/]( http://pivotal.github.com/jasmine/ )
+* Espias - Jasmine wiki [ Spies ](https://github.com/pivotal/jasmine/wiki/Spies)
