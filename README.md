@@ -79,7 +79,9 @@ por mostrar algunos. la lista completa la podemos observar en [ Jasmine Matchers
 
 Los espias son los "dobles" de las pruebas nos permiten espiar, falsificar y realizar "mocks". Un espia reemplaza a la funcion que esta espiando.
 
-
+## matchers:
+* `toHaveBeenCalled` verdadero si el espia ha sido llamado.
+* `toHaveBeenCalledWith` verdadero si la lista de argumentos corresponde a la lista de argumentos para cualquiera de las llamadas grabadas al espia.
 
 # Referencias y material de ejemplo de:
 
