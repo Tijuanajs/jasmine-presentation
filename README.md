@@ -1,7 +1,5 @@
-jasmine-presentation
+Jasmine-presentation
 ====================
-
-Jasmine demo presentation
 
 # Que es el BDD
 El BDD se ofrece como respuesta a las limitantes del TDD, es una manera nueva de describir comportamiento mas que a las pruebas que acompañan el software.
@@ -83,8 +81,33 @@ Los espias son los "dobles" de las pruebas nos permiten espiar, falsificar y rea
 * `toHaveBeenCalled` verdadero si el espia ha sido llamado.
 * `toHaveBeenCalledWith` verdadero si la lista de argumentos corresponde a la lista de argumentos para cualquiera de las llamadas grabadas al espia.
 
+# Soporte Asincrono
+* Los specs se escriben con llamadas a `runs`, que usualmente terminan con una llamada asincrona.
+* El bloque `waitsFor` toma una funcion que se ejecuta repetidamente hasta que regrese verdadero o expire el limite de tiempo. Si expira el spec falla.
+* Finalmente otro `runs` define el comportamiento final de la prueba, usualmente expectativas basadas en lo que regrese la llamada asincrona.
+
+# Ejecucion y el Reporteador
+Se debe incluir Jasmine a un ambiente javascript para que pueda ejecutarse.
+El objeto HTMLReporter proporciona resultados de cada suite y de cada spec.
+
+# Jasmine esta disponible:
+* De manera autonoma
+* Como gem de Ruby
+* Para Node.js
+* Java
+* Django
+* .NET
+
 # Referencias y material de ejemplo de:
+* Google group [http://groups.google.com/group/jasmine-js](http://groups.google.com/group/jasmine-js)
+* Twitter [http://twitter.com/JasmineBDD](http://twitter.com/JasmineBDD)
 
 * [http://dannorth.net/introducing-bdd](http://dannorth.net/introducing-bdd)
 * [http://pivotal.github.com/jasmine/]( http://pivotal.github.com/jasmine/ )
 * Espias - Jasmine wiki [ Spies ](https://github.com/pivotal/jasmine/wiki/Spies)
+
+Aviso de excencion:
+** Tijuana.js no esta asociado con Jasmine o Pivotal de ninguna manera **
+** Jasmine es software Open Source bajo la licencia MIT **
+** Jasmine es una marca de Pivotal Labs. **
+** Logos y marcas son propiedad de sus respectivos propietarios. **
