@@ -70,9 +70,17 @@ Todos comienzan con el codigo `expect(foo).`
 
 por mostrar algunos. la lista completa la podemos observar en [ Jasmine Matchers ]( https://github.com/pivotal/jasmine/wiki/Matchers ) asi como un ejemplo de construir uno personalizado.
 
-# Agrupar Specs y, Setup y Teardown y Anidar suites
+# Agrupar Specs, Setup y Teardown y Anidar suites
 * Podemos agrupar specs dentro de suites, el nombre de la suite se combinara junto con el del spec. El nombre resultante sera el nombre completo del spec.
 * Se puede ejecutar codigo antes y despues de cada spec dentro de una suite utilizando las funciones `beforeEach` y `AfterEach`
 * Otra caracteristica importante es que podemos anidar funciones `describe` dentro de otras
 
+# Espias
 
+Los espias pueden ser: 
+
+
+# Referencias y material de ejemplo de:
+
+* (http://dannorth.net/introducing-bdd)[http://dannorth.net/introducing-bdd]
+* ( http://pivotal.github.com/jasmine/ )[http://pivotal.github.com/jasmine/]
