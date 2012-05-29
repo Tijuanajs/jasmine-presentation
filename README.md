@@ -107,7 +107,10 @@ El objeto HTMLReporter proporciona resultados de cada suite y de cada spec.
 * Espias - Jasmine wiki [ Spies ](https://github.com/pivotal/jasmine/wiki/Spies)
 
 Aviso de excencion:
-** Tijuana.js no esta asociado con Jasmine o Pivotal de ninguna manera **
-** Jasmine es software Open Source bajo la licencia MIT **
-** Jasmine es una marca de Pivotal Labs. **
-** Logos y marcas son propiedad de sus respectivos propietarios. **
+*Tijuana.js no esta asociado con Jasmine o Pivotal de ninguna manera*
+
+*Jasmine es software Open Source bajo la licencia MIT*
+
+*Jasmine es una marca de Pivotal Labs.*
+
+*Logos y marcas son propiedad de sus respectivos propietarios.*
