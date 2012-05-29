@@ -82,5 +82,5 @@ Los espias pueden ser:
 
 # Referencias y material de ejemplo de:
 
-* (http://dannorth.net/introducing-bdd)[http://dannorth.net/introducing-bdd]
-* ( http://pivotal.github.com/jasmine/ )[http://pivotal.github.com/jasmine/]
+* [http://dannorth.net/introducing-bdd](http://dannorth.net/introducing-bdd)
+* [http://pivotal.github.com/jasmine/]( http://pivotal.github.com/jasmine/ )
