@@ -10,14 +10,6 @@ El BDD se ofrece como respuesta a las limitantes del TDD, es una manera nueva de
 * Determinar el siguiente comportamiento mas importante
 * Los requerimientos son pruebas también
 
-# Domain Driven Design:
-
-> Como un [x]
-
-> Quiero [y]
-
-> para que [z]
-
 # Jasmine
 http://pivotal.github.com/jasmine
 

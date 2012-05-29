@@ -18,14 +18,73 @@
 					<p>
 						BDD para tu Javascript
 					</p>
+					<p>
+						<em>tijuana<span class="orange">js</span></em>
+					</p>
+				</section>
+				<section>
+					<h1>BDD</h1>
+					<p class="huge">
+						TDD pero Mejor :)
+					</p>
 				</section>
 				<section data-state="alert">
 					<h2>Algunas características del BDD</h2>
 					<ul>
-						<li>Los enunciados inician por "should"</li>
-						<li>Describe comportamiento y no pruebas</li>
-						<li>Determinar el siguiente comportamiento mas importante </li>
+						<li>"Should"</li>
+						<li>Comportamiento y no pruebas</li>
+						<li>Cual es el siguiente comportamiento mas importante </li>
 						<li>Los requerimientos son pruebas también</li>
+					</ul>
+				</section>
+				<section>
+					<img src="images/jasmine_logo.png" />
+					<p>
+						<a href="http://pivotal.github.com/jasmine">http://pivotal.github.com/jasmine</a>
+					</p>
+					<p>
+						BDD Javascript Framework
+					</p>
+					<ul class="pink">
+						<li>Sin dependencias</li>
+						<li>Sin DOM</li>
+						<li>Facil y claro</li>
+					</ul>
+				</section>
+				<section>
+				<h1 class="hcode">describe, it, expect, matcher</h1>
+					<pre><code>
+describe("A suite", function() {
+  it("contains spec with an expectation", function() {
+    expect(true).toBe(true);
+  }
+}
+					</code></pre>
+				</section>
+				<section>
+					<h1>Matchers</h1>
+					<pre><code>
+toEqual(y);
+toBe(y);
+toMatch(pattern);
+toBeDefined();
+toBeUndefined(y);
+toBeNull(y);
+toBeTruthy();
+toBeFalsy();
+toContain(y);
+toBeLessThan(y);
+toBeGreaterThan(y);
+
+expect(function(){fn();}).toThrow(e);
+					</code></pre>
+				</section>
+				<section>
+					<h1>Cosas buenas <sup>tm</sup></h1>
+					<ul>
+						<li>Agrupar specs</li>
+						<li>Setup y Teardown</li>
+						<li>Anidar suites</li>
 					</ul>
 				</section>
 			</div>

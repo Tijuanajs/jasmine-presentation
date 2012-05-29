@@ -938,4 +938,39 @@ html {
 .blackout .state-background {
 	background: rgba( 0, 0, 0, 0.6 );
 }
-
+.huge {
+	font-size:200%;
+	font-weight:bold;
+	background-color: #F92672;
+	line-height:1.5;
+}
+.orange {
+	color:orange;
+}
+.func {
+	color: #A6E22E;
+}
+.pink {
+	color: #A6E22E;
+}
+#reveal ul {
+	margin-top:10px;
+}
+#reveal .hcode {
+	font-family: monospace;
+	font-size:140%;
+}
+#reveal .hcode span{
+}
+#reveal pre {
+	width:100%;
+}
+code {
+	font-size:26px;
+	line-height:24px;
+}
+sup {
+	font-family: sans-serif;
+	font-size: 39%;
+	vertical-align:text-top;
+}
