@@ -87,6 +87,62 @@ expect(function(){fn();}).toThrow(e);
 						<li>Anidar suites</li>
 					</ul>
 				</section>
+				<section>
+					<h1>Espias</h1>
+					<pre><code>
+expect(x).toHaveBeenCalled()
+expect(x).toHaveBeenCalledWith(arguments)
+expect(x).not.toHaveBeenCalled()
+expect(x).not.toHaveBeenCalledWith(arguments)
+spyOn(x, 'method').andCallThrough()
+spyOn(x, 'method').andReturn(arguments)
+spyOn(x, 'method').andThrow(exception)
+spyOn(x, 'method').andCallFake(function)
+
+callCount, mostRecentCall.args, argsForCall[i]
+					</pre></code>
+				</section>
+				<section>
+					<h1>Soporte Asincrono</h1>
+					<pre><code>
+runs()
+waitsFor()
+					</pre></code>
+				</section>
+				<section>
+					<h1>¿Jasmine con que?</h1>
+					<ul>
+						<li>Forma autónoma</li>
+						<li>Node.js</li>
+						<li>Gem de Ruby</li>
+						<li>Java</li>
+						<li>Django</li>
+						<li>.NET</li>
+					</ul>
+				</section>
+				<section>
+					<h1>Mas Info</h1>
+					<ul>
+						<li>Google group <a href="http://groups.google.com/group/jasmine-js">http://groups.google.com/group/jasmine-js</a></li>
+						<li>Twitter <a href="http://twitter.com/JasmineBDD">http://twitter.com/JasmineBDD</a></li>
+						<li>Introducción a BDD <a href="http://dannorth.net/introducing-bdd">http://dannorth.net/introducing-bdd</a></li>
+					</ul>
+				</section>
+				<section>
+					<h1>Ultima pagina</h1>
+					<p>
+						Gracias y esas cosas
+					</p>
+					<p>
+						Visita Tijuanajs en <a href="http://tijuanajs.org">tijuanajs.org</a>
+					</p>
+					<p>
+						Links a esta presentation: <a href="https://github.com/Tijuanajs/jasmine-presentation">https://github.com/Tijuanajs/jasmine-presentation</a>
+					</p>
+					<p>
+						<img src="images/programming.gif" />
+					</p>
+				</section>
 			</div>
 			<aside class="controls">
 				<a class="left" href="#">&#x25C4;</a>
