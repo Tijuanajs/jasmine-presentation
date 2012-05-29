@@ -5,15 +5,17 @@ Jasmine-presentation
 El BDD se ofrece como respuesta a las limitantes del TDD, es una manera nueva de describir comportamiento mas que a las pruebas que acompañan el software.
 
 # Algunas características del BDD
-. Los enunciados inician por should
-. Describe comportamiento y no pruebas
-. Determinar el siguiente comportamiento mas importante
-. Los requerimientos son pruebas también
+* Los enunciados inician por "should"
+* Describe comportamiento y no pruebas
+* Determinar el siguiente comportamiento mas importante
+* Los requerimientos son pruebas también
 
 # Domain Driven Design:
 
 > Como un [x]
+
 > Quiero [y]
+
 > para que [z]
 
 # Jasmine
@@ -50,7 +52,7 @@ describe("A suite", function() {
 
 # `describe` e `it`
 
-Jasmine nos dice que `describe` y `it` son solo funciones, pueden contener código necesario para implementar la prueba. Las reglas de "scope" de Javascript aplican aquí, así que si se declara algo dentro de un `describe` este estará disponible a los bloques `it` dentro de la suite.
+Jasmine nos dice que `describe` e `it` son solo funciones, pueden contener código necesario para implementar la prueba. Las reglas de "scope" de Javascript aplican aquí, así que si se declara algo dentro de un `describe` este estará disponible a los bloques `it` dentro de la suite.
 
 # Expectations
 Se construyen con la función `expect` que toma un valor llamado `actual`. y se encadena con una función `matcher` con el valor esperado.
