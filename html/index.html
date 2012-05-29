@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>Tijuana.js - Jasmine - BDD para tu Javascript</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/print.css" type="text/css" media="print">
+		<link rel="stylesheet" href="lib/zenburn.css">
+		
+	</head>
+	<body>
+		<div id="reveal">
+			<div class="state-background"></div>
+			<div class="slides">
+				<section>
+					<h1>Jasmine</h1>
+					<p>
+						BDD para tu Javascript
+					</p>
+				</section>
+				<section data-state="alert">
+					<h2>Algunas características del BDD</h2>
+					<ul>
+						<li>Los enunciados inician por "should"</li>
+						<li>Describe comportamiento y no pruebas</li>
+						<li>Determinar el siguiente comportamiento mas importante </li>
+						<li>Los requerimientos son pruebas también</li>
+					</ul>
+				</section>
+			</div>
+			<aside class="controls">
+				<a class="left" href="#">&#x25C4;</a>
+				<a class="right" href="#">&#x25BA;</a>
+				<a class="up" href="#">&#x25B2;</a>
+				<a class="down" href="#">&#x25BC;</a>
+			</aside>
+			<div class="progress"><span></span></div>
+		</div>
+		<script src="js/reveal.js"></script>
+		<script src="lib/highlight.js"></script>
+		<script src="lib/classList.js"></script>
+		<script type="text/javascript">
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				rollingLinks: true,
+				transition: 'concave'
+			});
+			hljs.initHighlightingOnLoad();
+		</script>
+	</body>
+</html>
