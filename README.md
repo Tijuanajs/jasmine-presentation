@@ -11,7 +11,7 @@ El BDD se ofrece como respuesta a las limitantes del TDD, es una manera nueva de
 * Los requerimientos son pruebas también
 
 # Jasmine
-http://pivotal.github.com/jasmine
+https://jasmine.github.io/
 
 Jasmine es un marco de trabajo de BDD para probar código Javascript
 
@@ -97,7 +97,7 @@ El objeto HTMLReporter proporciona resultados de cada suite y de cada spec.
 * Twitter [http://twitter.com/JasmineBDD](http://twitter.com/JasmineBDD)
 
 * [http://dannorth.net/introducing-bdd](http://dannorth.net/introducing-bdd)
-* [http://pivotal.github.com/jasmine/]( http://pivotal.github.com/jasmine/ )
+* [https://jasmine.github.io/]( https://jasmine.github.io/ )
 * Espías - Jasmine wiki [ Spies ](https://github.com/pivotal/jasmine/wiki/Spies)
 
 Aviso de excención:
